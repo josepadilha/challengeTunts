@@ -56,7 +56,7 @@ console.log('calculating the values ​​to be filled in the spreadsheet');
         p2[i] = parseInt(sheetArray[i][4]);
         p3[i] = parseInt(sheetArray[i][5]);
         absencesNumber[i] = parseInt(sheetArray[i][2]);
-        average[i] = calculateAverage(p1[i], p2[i], p3[i]);
+        average[i] = Math.ceil(calculateAverage(p1[i], p2[i], p3[i]));
         averageStatus[i] = studentStatus(average[i], absencesNumber[i], totalClasses);
         averageStatus[i] = absenceStatus(totalClasses, absencesNumber[i]);
         naf[i] = calculateNAF(average[i], averageStatus[i]);
