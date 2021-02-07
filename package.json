@@ -1,0 +1,17 @@
+{
+  "name": "desafiotunts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafioTunts.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-spreadsheet": "^3.1.15",
+    "googleapis": "^67.0.0"
+  }
+}
